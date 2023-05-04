@@ -1,0 +1,30 @@
+{
+  "name": "booking_catering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ignore": [
+      "auth/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "@hapi/boom": "^10.0.1",
+    "@types/express": "^4.17.17",
+    "@types/qr-image": "^3.2.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "qr-image": "^3.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.9.1"
+  }
+}
